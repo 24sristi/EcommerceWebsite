@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="https://cdn.shopify.com/s/files/1/0584/9399/3141/files/favicon-32x32_32x.png?v=1627207424">
+    <title>Products-Koovs</title>
+     <link rel="stylesheet" href="product.css">
+     <link rel="stylesheet" href="navBar.css">
+     <link rel="stylesheet" href="footer.css">
+</head>
+    <body>
+       <script src="header.js"></script>
+        <!-- common product page design -->
+
+    <div id="koovsAdditionalPage">
+        <img  id="closeAdditionalPage" src="clsoeButton.png" alt="koovsxyou">
+  
+        <div id="addBox1">
+           
+            <div id="imageFlex">
+                <div id="imageGrid">
+                 <img id="additionalBox1Image1" src="" alt="">
+                 <img id="additionalBox1Image2" src="" alt="">
+                 <img id="additionalBox1Image3" src="" alt="">
+                 <img id="additionalBox1Image4" src="" alt="">
+                </div>
+
+                <div id="firstImage">
+                    <img style="height:400px" id="bigImage" src="" alt="">
+                </div>
+            </div>
+            <div id="bigFlex">
+               <h2 id="addBrand">Blue Saint</h2>
+               <h3 id="addName">women blue printed denim</h3>
+               <div id="priceBox">
+                  <p class="currentPrice" id="addCurrentPrice">₹900</p>
+                  <p class="previousPrice" id="addPreviousPrice">₹1799</p>
+                  <p class="discount" id="addDiscount">50% OFF</p>
+               </div>
+               <div id="sizeDiv">
+                <h2 id="sizeHeading">Size</h2>
+                <div id="sizeBox">
+                 <h3><span class="sizedata size1">s</span></h3>
+                 <h3><span class="sizedata size2">m</span></h3>
+                 <h3><span class="sizedata size3">l</span></h3>
+                </div>
+               </div>
+
+               <div>
+                   <h2>Colour</h2>
+                   <div id="colorDiv" style="background-color:blue"></div>
+               </div>
+              
+               <button id="additionalAddtoBag">ADD TO BAG</button>
+               <div id="buttonAfterClick">
+                <button class="additionalAddtoBag" id="gotoCart">GO TO CART</button>
+                <button class="additionalAddtoBag" id="continueShop">CONTINUE SHOPPING</button>
+               </div>
+            </div>
+        </div>
+       </div> 
+    
+
+
+<div id="filterOption">
+   <h3>Filter options</h3>
+        <div class="title">
+            <h2>Gender</h2>
+            <h2 class="symbol">+</h2>
+        </div>
+
+        <input type="checkbox" name="" id="men" value="men">
+        <label for="men">Men</label> <br>
+        <input type="checkbox" name="" id="women" value="men">
+        <label for="women">Women</label> <br> 
+
+        <div class="title">
+            <h2>Category</h2>
+            <h2 class="symbol">+</h2>
+        </div>
+        <input type="checkbox" name="" id="">
+        <label for="">coasts & jackets</label> <br>
+        <input type="checkbox" name="" id="">
+        <label for="">Hoodies</label> <br>
+        <input type="checkbox" name="" id="">
+        <label for="">T-Shirts</label> <br>
+        <input type="checkbox" name="" id="">
+        <label for="">Shorts</label> <br>
+        <input type="checkbox" name="" id="">
+        <label for="">Vests</label> <br>
+
+        <div class="title">
+            <h2>Brand</h2>
+            <h2 class="symbol">+</h2>
+        </div>
+        <input type="checkbox" name="" id="">
+        <label for="">Blue Saint</label> <br>
+        <input type="checkbox" name="" id="">
+        <label for="">Koovs</label> <br>
+        <input type="checkbox" name="" id="">
+        <label for="">Impackt</label> <br>
+        <input type="checkbox" name="" id="">
+        <label for="">Kultprit</label> <br>
+        <input type="checkbox" name="" id="">
+        <label for="">men</label> <br>
+
+        <div class="title">
+            <h2>Range</h2>
+            <h2 class="symbol">+</h2>
+        </div>
+        <input type="checkbox" name="" id="">
+        <label for="">RS.800 -950</label> <br>
+        <input type="checkbox" name="" id="">
+        <label for="">RS.951 -1050</label> <br>
+        <input type="checkbox" name="" id="">
+        <label for="">RS.1050 -1150</label> <br>
+        <input type="checkbox" name="" id="">
+        <label for="">RS.1150 -1250</label> <br>
+        <input type="checkbox" name="" id="">
+        <label for="">RS.1250 -1350</label> <br>
+    
+</div>
+        
+<div id="sortBox">
+    <div id="zoomInOut">
+      <label for="">Zoom:</label>
+      <img id="zoomIn" src="https://images.koovs.com/uploads/koovs/plus_list.png" alt="">
+      <img id="zoomOut" src="https://images.koovs.com/uploads/koovs/minus_list.png" alt="">
+    </div>
+    <div id="sort">
+     <label for="">Sort by:</label>
+     <select id="sortByPrice" onchange="sortByPrice()">
+        <option value="normal">revealance</option>
+        <option value="high">price high to  low</option>
+        <option value="low">price low to high</option>
+        <option value="new">what's new</option>
+        <option value="discount">high discount</option>
+    </select>
+    </div>
+</div>
+<div id="container">
+    <div id="productContainer"></div>
+</div>
+<button id="load">LOAD MORE</button>
+<script src="footer.js"></script>
+    <script src="products.js"></script>
+    <script src="navBar.js"></script>
+    <script src="footerJS.js"></script>
+</body>
+</html> 
