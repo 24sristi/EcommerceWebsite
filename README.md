@@ -6,11 +6,15 @@
 
 ---
 
-
+This is the ecommerce website developed by 
+- Khushi Singh  - 10101012019
+- Sristi Sharma - 11101012019
+- Aastha Bansal - 17001012019
+Under the guidance of Ms. Kavita, CSE Department, IGDTUW
 
 ---
 ### Demo Link 👇
-**[KOOVS.COM](https://dimple06varshney.github.io/koovs/)**
+**[KOOVS.COM](https://24sristi.github.io/EcommerceWebsite/)**
 
 ### Pages & Features 👇
 
