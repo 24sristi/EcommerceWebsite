@@ -1,0 +1,455 @@
+#productContainer{
+    width:84%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    box-sizing: border-box;
+    margin:20px 0 0 16.4%;
+}
+#productContainerZoom{
+    width:84%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    box-sizing: border-box;
+    margin:20px 0 0 16.4%;
+}
+#sortBox{
+    height:auto;
+    width:340px;
+    display: flex;
+    margin-top:40px;
+    margin-left:auto;
+}
+#zoomInOut{
+    width:100px;
+    display: flex;
+    justify-content: space-between;
+    padding:5px;
+}
+#zoomInOut img{
+    width:25px;
+    height:20px;
+}
+#sort{
+    display: flex;
+    width:200px;
+    border:1px solid black;
+    margin-left:auto;
+    text-align: center;
+    padding:5px;
+}
+#sort > select{
+   border:none;
+}
+#zoomInOut label{
+    font-weight: 600;
+    font-size:18px;
+}
+#sort label{
+    font-weight: 600;
+}
+#imgBox{
+    height:397px;
+    width:239px;
+    box-sizing: border-box;
+    color:rgba(0, 0, 0, 0.805);
+    font-family: 'open-sans', sans-serif;
+    margin-bottom:20px;
+    box-sizing: border-box;   
+}
+#imgBoxZoom{
+    height:464px;
+    width:348px;
+    box-sizing: border-box;
+    color:rgba(0, 0, 0, 0.805);
+    font-family: 'open-sans', sans-serif;
+    margin-bottom:20px;
+    box-sizing: border-box;   
+}
+#productImg{
+    height:319px;
+    width:239px;
+}
+#productImgZoom{
+    height:319px;
+    width:239px;
+}
+#priceBox,#priceBox1{
+    display: flex;
+    margin-top:-30px;
+    justify-content:flex-start
+}
+#priceBox1{
+    background-color:white;
+}
+.name1{
+    padding-top:4px;
+    margin-top:-20px;
+    background-color:white;
+    line-height: 14px;
+    font-size: 12px;
+    color:rgba(0, 0, 0, 0.805);
+}
+.currentPrice{
+    margin-right:6px;
+    font-size:18px;
+    font-weight:700;
+    padding:0 3px;
+    color:rgba(0, 0, 0, 0.805);
+    font-family: 'Open Sans', sans-serif;
+}
+.previousPrice{
+    font-size:15px;
+    margin-right:6px;
+    text-decoration: line-through;
+    margin-top:22px;
+}
+.discount{
+    font-size:18px;
+    color:rgb(255, 6, 6);
+    padding:0 3px;
+    font-family: 'Open Sans', sans-serif;
+}
+.brand{
+    line-height: 0;
+    font-size: 18px;
+    font-weight: 1000;
+}
+.name{
+    line-height: 14px;
+    font-size: 12px;
+    color:rgba(0, 0, 0, 0.805);
+}
+#load {
+    background-color: transparent;
+    color: rgba(179, 179, 179, 0.815);
+    margin: 10px 0 10px 48%;
+    border: 0;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  #hoverBox,#hoverBoxZoom{
+      margin-top:250px;
+      margin-left:-239px;
+    width:239px;
+    height:160px;
+    background-color:white;
+    position:absolute;
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+ 
+  #addToCartBox{
+   height:36px;
+   width:239px;
+   display: flex;
+  }
+  #addToCart{
+    height:100%;
+    width:100%;
+    background-color:black;
+    color:white;
+    text-align:center;
+  }
+  #quickView{
+    height:100%;
+    width:100%;
+    background-color:grey;
+    color:white;
+    text-align:center;
+  }
+  #addToCartBox h4{
+      margin-top: 7px;
+  }
+  #colorDiv{
+      height:20px;
+      width:20px;
+      border-radius: 50%;
+      margin:12px 0 0 5px;
+  }
+  #sizeBox{
+    margin:12px 0 0 8px;
+    height:40px;
+    width:100px;
+    display:flex;
+  }
+  #sizeBox > a{
+      margin-right:7px;
+  }
+  #filterOption{
+      height:auto;
+      width:12%;
+      position:absolute;
+      margin-top:-16px;
+      padding-left:20px;
+  }
+  #filterOption input{
+      height:20px;
+      width:20px;
+      margin-top:4px;
+  }
+  #filterOption label{
+   font-size:16px;
+   margin-top:4px;
+}
+.title{
+    width:80%;
+    display:flex;
+    justify-content: space-between;
+}
+.symbol{
+    font-size:26px;
+    font-weight:bold;
+    margin-top:18px;
+    background-color: black;
+    color:white;
+    height:28px;
+    width:28px;
+    border-radius:50%;
+    text-align: center;
+}
+
+
+/* //additionalPage */
+#koovsAdditionalPage {
+    height: 605px;
+    width: 1200px;
+    background-color: white;
+    border-radius: 5px;
+    position: fixed;
+    margin: -5% 0 0 14%;
+    display: none;
+    color: black;
+    grid-gap: 5px;
+    z-index:15;
+  }
+  
+  #addBox1 {
+    height: auto;
+    text-align: center;
+    display: flex;
+    width:100%;
+    padding:40px;
+  }
+  #addBox1 > div{
+      margin-right:16px;
+  }
+  #additionalHeader {
+    padding: 0 10px 0;
+    margin-top: -28px;
+    color: grey;
+  }
+ 
+  #additionalPageBrand1{
+    font-size: 16px;
+    font-family: sans-serif;
+  }
+  #additionalPageProduct1{
+         font-size: 14px;
+    font-family: sans-serif;
+    margin-top: -6px;
+  }
+
+  #currentPrice1 {
+    font-size: 28px;
+    color: rgb(177, 2, 2);
+    margin-top: 10px;
+  }
+
+  #previousPrice1 {
+    text-decoration: line-through;
+    font-size: 28px;
+    line-height: 0;
+    margin-top: -10px;
+  }
+  #additionalBox1Image1 {
+    height: 250px;
+    width: 150px;
+  }
+  form {
+    margin-top: 20px;
+  }
+  form select {
+    width: 80%;
+    padding: 3px;
+    margin-top: 5px;
+    border: 1px solid rgb(197, 195, 195);
+  }
+  form button {
+    width: 80%;
+    padding: 3px;
+    margin-top: 5px;
+    border: 1px solid rgb(197, 195, 195);
+  }
+  
+  #additionslPageAddtoCart {
+    background-color: yellow;
+    color: black;
+    width: 80%;
+    padding: 3px;
+    margin-top: 5px;
+  }
+  #additionslPageAddtoCart:hover,
+  #additionalPageAddtoWishlist:hover {
+    background-color: black;
+    color: white;
+  }
+  #additionalPageAddtoWishlist {
+    background-color: white;
+    color: black;
+    width: 80%;
+    padding: 3px;
+    margin-top: 5px;
+  }
+
+  #closeAdditionalPage {
+    display: inline-block;
+    position: fixed;
+    color: white;
+    margin-top: -24px;
+    margin-left: 77.4%;
+    width: 16px;
+    height: 50px;
+    width: 50px;
+  }
+  #showAddedtoWishlist{
+    height:150px;
+    width:150px;
+    margin-left:16px;
+    margin-top:20%;
+    padding:30px;
+    text-align: center;
+    position:absolute;
+    z-index:-100;
+  }
+  #imageFlex{
+      height:500px;
+      width:50%;
+      display:flex;
+  }
+  #imageGrid{
+      height:50%;
+      width:66%;
+      display:grid;
+      grid-gap: 3px;
+      grid-template-columns: repeat(2,1fr);
+  }
+#imageGrid img{
+    height:90%;
+    width: 75%;
+}
+  #firstImage{
+      margin-left:16px;
+  }
+  #firstImage #bigImg{
+      height:600px;
+  }
+  #bigFlex{
+      text-align: left;
+      padding-left:80px;
+  }
+  #addName{
+      opacity:0.6;
+      margin-bottom:26px;
+  }
+.sizechart{
+    border:1px solid black;
+    font-weight:bold;
+    margin-top:18px;
+    color:black;
+    height:28px;
+    width:35px;
+    border-radius:50%;
+    text-align: center;
+    padding:3px;
+    margin:5px;
+}
+.sizechart:nth-child(1){
+   margin:5px 5px 5px 0;
+}
+#additionalAddtoBag{
+    background-color: rgb(180, 180, 180);
+    color:white;
+    margin-top:30px;
+    padding:10px;
+    border:none;
+    width:190px;
+    height:50px;
+    font-weight:bold;
+    font-size:14px;
+}
+.addBoxShadow{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.sizedata{
+  border-radius: 20px!important;
+  padding: 6px0!important;
+  height: 30px;
+  width: 30px!important;
+      text-align: center;
+      border: 1px#a29191 solid;
+      display: inline-block;
+      margin-right: 20px;
+      cursor: pointer;
+      margin-bottom: 15px;
+      line-height: 1.2;
+}
+#wishSymbol{
+  font-size:32px;
+  position:absolute;
+  z-index:12;
+  height:36px;
+  width:36px;
+  margin-left:210px;
+}
+#buttonAfterClick{
+  width:420px;
+  display:none;
+}
+#buttonAfterClick > button{
+    margin-top:-50px;
+    padding:10px;
+    border:none;
+    width:190px;
+    height:50px;
+    font-size:14px;
+    position:absolute;
+}
+#gotoCart{
+  background-color:yellowgreen;
+  color:white;
+  font-weight:bold;
+}
+#continueShop{
+  background-color:black;
+  color:white;
+  font-weight:bold;
+  margin-left:200px;
+}
+#wishlistLength{
+  font-size: 16px;
+  color:white;
+  position:absolute;
+  margin-top:-40px;
+  margin-left:22px;
+  padding:2px 2px 4px 2px;
+  background-color: black;
+  border-radius: 50%;
+  text-align: center;
+  height:22px;
+  width:22px;
+}
+#cartLength{
+  font-size: 16px;
+  color:white;
+  position:absolute;
+  margin-top:-40px;
+  margin-left:18px;
+  padding:2px 2px 4px 2px;
+  background-color: black;
+  border-radius: 50%;
+  text-align: center;
+  height:22px;
+  width:22px;
+}

@@ -1,0 +1,161 @@
+#koovsInlineContainer{
+    /* height:2650px; */
+    width:96%;
+    margin:auto;
+    display: grid;
+    padding:20px;
+    grid-template-columns: repeat(2);
+    grid-template-rows: repeat(6);
+    grid-gap:28px;
+    grid-template-areas: "a a"
+                          "b c"
+                          "d e"
+                          "f g"
+                          "h i"
+                          "h i";
+}
+#koovsInlineContainer #box1{
+ grid-area: a;
+}
+#koovsInlineContainer img{
+    width:100%;
+}
+#koovsInlineContainer #box2{
+    grid-area: b;
+}
+#koovsInlineContainer #box3{
+    grid-area: c;
+}
+#koovsInlineContainer #box4{
+    grid-area: d;
+}
+#koovsInlineContainer #box5{
+    grid-area: e;
+}
+#koovsInlineContainer #box6{
+    grid-area: f;
+}
+#koovsInlineContainer #box7{
+    grid-area: g;
+}
+#koovsInlineContainer #box8{
+    grid-area: h;
+    width:102%;
+}
+#koovsInlineContainer #box9{
+    grid-area: i;
+    width:102%;
+    margin-left:-2%;
+}
+
+
+/* friends Container */
+#koovsInlineFriendsContainer{
+    height:1650px;
+    width:96%;
+    margin:auto;
+    display: grid;
+    padding:20px;
+    grid-template-columns: repeat(2);
+    grid-template-rows: repeat(4);
+    grid-gap:28px;
+    grid-template-areas: "a a"
+                          "b c"
+                          "d e"
+                          "f g"
+                                                  
+}
+
+#koovsInlineFriendsContainer #box1{
+ grid-area: a;
+}
+#koovsInlineFriendsContainer img{
+    width:100%;
+}
+#koovsInlineFriendsContainer #box2{
+    grid-area: b;
+}
+#koovsInlineFriendsContainer #box3{
+    grid-area: c;
+}
+#koovsInlineFriendsContainer #box4{
+    grid-area: d;
+}
+#koovsInlineFriendsContainer #box5{
+    grid-area: e;
+}
+#koovsInlineFriendsContainer #box6{
+    grid-area: f;
+}
+#koovsInlineFriendsContainer #box7{
+    grid-area: g;
+}
+
+
+/* one zero's Container */
+#koovsInlineonezeroContainer{
+    height:1050px;
+    width:96%;
+    margin:auto;
+    display: grid;
+    padding:20px;
+    grid-template-columns: repeat(2);
+    grid-template-rows: repeat(4);
+    grid-gap:28px;
+    grid-template-areas: "a a"
+                          "b c"
+                          "d e"
+                                                  
+}
+
+#koovsInlineonezeroContainer #box1{
+ grid-area: a;
+}
+#koovsInlineonezeroContainer img{
+    width:100%;
+}
+#koovsInlineonezeroContainer #box2{
+    grid-area: b;
+}
+#koovsInlineonezeroContainer #box3{
+    grid-area: c;
+}
+#koovsInlineonezeroContainer #box4{
+    grid-area: d;
+}
+#koovsInlineonezeroContainer #box5{
+    grid-area: e;
+}
+
+
+
+
+
+
+#wishlistLength{
+    font-size: 16px;
+    color:white;
+    position:absolute;
+    margin-top:-40px;
+    margin-left:22px;
+    padding:2px 2px 4px 2px;
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
+    height:22px;
+    width:22px;
+  }
+  #cartLength{
+    font-size: 16px;
+    color:white;
+    position:absolute;
+    margin-top:-40px;
+    margin-left:18px;
+    padding:2px 2px 4px 2px;
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
+    height:22px;
+    width:22px;
+  }
+ 
