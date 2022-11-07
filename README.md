@@ -1,23 +1,12 @@
 ---
-# KOOVS Clone Front-End Project
+# Ecommerce Website
 ---
 
 # Welcome 👋
 
 ---
 
-## About this project: 🙌
-> This is a team project, built by us in the Construct Week - Unit 2 at Masai School.
 
----
-## Our Team Members ❤️
-
-- **[Dimple Varshney](https://github.com/dimple06varshney)**
-- **[Nanda kishor Palei](https://github.com/Nandakishorpalei)**
-- **[Upasana Kuar](https://github.com/Upasana1011)**
-- **[Shruti Waghmode](https://github.com/Shruti28210)**
-- **[Hemendra Meheta](https://github.com/hmehta051)**
-- **[vaibhav Manral](https://github.com/vab096)**
 
 ---
 ### Demo Link 👇
